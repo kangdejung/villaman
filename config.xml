@@ -10,14 +10,15 @@
 	<preference name="AutoHideSplashScreen" value="false" />
 	<preference name="SplashScreenDelay" value="10000" />
 	<preference name="android-minSdkVersion" value="15" />
-	<preference name="fullscreen" value="true" />
+	<preference name="fullscreen" value="false" />
 	
 	<gap:plugin name="cordova-plugin-whitelist" source="npm" />
 	<gap:plugin name="cordova-plugin-inappbrowser" source="npm"  />
 
 	<gap:plugin name="cordova-plugin-statusbar" source="npm"  />
 
-	<preference name="StatusBarOverlaysWebView" value="false" />
+	<preference name="StatusBarOverlaysWebView" value="true" />
+	<preference name="StatusBarBackgroundColor" value="#000000" />
 	<preference name="StatusBarStyle" value="default" />
 
 	
